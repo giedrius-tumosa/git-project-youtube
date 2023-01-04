@@ -48,6 +48,6 @@ export default class VideoCard {
     videoData.append(document.createTextNode(`${this.props.viewCount} · ${this.props.postedTime}`));
 
     textBox.append(videoTitle, channelTitle, videoData);
-
+    return article;
   }
 }
