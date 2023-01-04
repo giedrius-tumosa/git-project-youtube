@@ -1,0 +1,45 @@
+{
+  "videos": [
+    {
+      "title": "Avatar 2 Shatters $1 Billion Mark Worldwide - Charts with Dan!",
+      "videoThumbNail": "../images/pexels-donald-tong-66134.jpg",
+      "channelIconUrl": "../images/dannMurrell.jpg",
+      "channelTitle": "Dan Murrell",
+      "viewCount": "37K views",
+      "duration": "37:20",
+      "postedTime": "21 hours ago"
+    },
+    {
+      "title": "What Are The Hidden Rules Of The Universe?",
+      "videoThumbNail": "../images/pexels-teono-no-88476.jpg",
+      "channelIconUrl": "../images/channels4_profile.jpg",
+      "channelTitle": "History of the Universe",
+      "viewCount": "1.5M views",
+      "duration": "45:00",
+      "postedTime": "1 month ago"
+    },
+    {
+      "title": "The Top 10 Movies of 2022",
+      "videoThumbNail": "../images/pexels-terje-sollie-320617.jpg",
+      "channelIconUrl": "../images/thomas.jpg",
+      "channelTitle": "Thomas Flight",
+      "viewCount": "676K views",
+      "duration": "26:20",
+      "postedTime": "12 days ago"
+    }
+  ],
+  "subscriptions": [
+    {
+      "channelIconUrl": "../images/dannMurrell.jpg",
+      "channelTitle": "Dan Murrell"
+    },
+    {
+      "channelIconUrl": "../images/channels4_profile.jpg",
+      "channelTitle": "History of the Universe"
+    },
+    {
+      "channelIconUrl": "../images/thomas.jpg",
+      "channelTitle": "Thomas Flight"
+    }
+  ]
+}
