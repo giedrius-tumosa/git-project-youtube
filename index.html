@@ -14,6 +14,44 @@
     <script src="./scripts/main.js" defer></script>
   </head>
   <body>
-    <div class="page_wrapper"></div>
+    <div class="page_wrapper">
+      <!-- Header -->
+      <header class="header">
+        <div class="header_left-wrap flex-row">
+          <div class="header_hamburger">
+            <span class="material-symbols-outlined">menu</span>
+          </div>
+          <figure class="header_logo">
+            <a href="#"
+              ><img src="./images/Youtube-Logo-Font-3.png" alt="Youtube logo." height="30"
+            /></a>
+          </figure>
+        </div>
+        <div class="header_mid-wrap">
+          <form class="header_form-search flex-row" action="#">
+            <div class="search-input-box">
+              <input type="text" placeholder="Search" />
+            </div>
+            <div class="btn-search">
+              <button class="material-symbols-outlined" type="submit">search</button>
+            </div>
+            <div class="voice-search">
+              <span class="material-symbols-outlined">mic</span>
+            </div>
+          </form>
+        </div>
+        <div class="header_right-wrap">
+          <nav>
+            <ul class="flex-row">
+              <li class="kebab"><span class="material-symbols-outlined">more_vert</span></li>
+              <li class="sign-in-btn flex-row">
+                <span class="material-symbols-outlined">account_circle</span>
+                <span class="sign-in-text">Sign in</span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </div>
   </body>
 </html>
