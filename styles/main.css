@@ -21,8 +21,10 @@ body {
   --header-height: 70px;
   --search-input-border: 1px solid #adadad;
   --border-radius-1: 20px;
+  --border-radius-2: 10px;
   --padding-inline-global: 2rem;
   --bg-color-global: #fff;
+  --bg-color-hover: #f2f2f2;
 }
 
 /* Utility */
@@ -119,7 +121,7 @@ body {
   border-radius: var(--border-radius-1);
 }
 .sign-in-btn:hover {
-  background-color: #f2f2f2;
+  background-color: var(--bg-color-hover);
   cursor: pointer;
 }
 .kebab:hover {
@@ -162,7 +164,7 @@ body {
 }
 .aside_nav > ul > li:hover {
   cursor: pointer;
-  background-color: #f2f2f2;
+  background-color: var(--bg-color-hover);
 }
 .aside_footer-nav {
   all: initial;
@@ -181,9 +183,26 @@ body {
 }
 
 .main_video-type-nav {
-  height: 40px;
-  border: 1px solid red;
-  background-color: green;
+  height: 60px;
   position: sticky;
   top: var(--header-height);
+}
+
+.main_video-type-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: scroll;
+  height: 60px;
+}
+
+.main_video-type-nav ul li {
+  flex-shrink: 0;
+  background-color: var(--bg-color-hover);
+  padding: 0.5rem;
+  border-radius: var(--border-radius-2);
+}
+.main_video-type-nav ul li:hover {
+  background-color: #cbcbcb;
+  cursor: pointer;
 }
